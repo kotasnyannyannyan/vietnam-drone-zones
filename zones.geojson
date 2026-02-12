@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tan Son Nhat Airport Zone",
+        "description": "Airport red zone. No fly at any altitude.",
+        "min_altitude": 0,
+        "max_altitude": 0,
+        "color": "#FF0000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.6400, 10.8300],
+            [106.6600, 10.8350],
+            [106.6800, 10.8250],
+            [106.6800, 10.8100],
+            [106.6600, 10.8000],
+            [106.6400, 10.8000],
+            [106.6400, 10.8300]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "City Center Restricted Airspace",
+        "description": "Restricted above 120m.",
+        "min_altitude": 120,
+        "max_altitude": 9999,
+        "color": "#FFA500"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.6900, 10.7700],
+            [106.7100, 10.7800],
+            [106.7100, 10.7600],
+            [106.6900, 10.7600],
+            [106.6900, 10.7700]
+          ]
+        ]
+      }
+    }
+  ]
+}
